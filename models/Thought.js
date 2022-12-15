@@ -1,10 +1,13 @@
 
+//This model contains our nonrelation data which we will connect with routes and manipulate with the controller to 
+// do CRUD operations 
+
 const { Schema, model, Types } = require ('mongoose');
 const moment = require ('moment');
 
 const ReactionSchema = new Schema ({
     reactionId: {
-        type. Schema.Types.ObjectId,
+        type: Schema.Types.ObjectId,
         default: () => new Types.ObjectId()
     },
 
@@ -24,7 +27,7 @@ const ReactionSchema = new Schema ({
         
         default: Date.now,
 
-        get: createdAtVal => moment(createdAtVal).format('MMM DD, YYYY [at] hh:mm a')
+        get: valCreate => moment(valCreate).format('MMM DD, YYYY [@] hh:mm a')
     }
 
 
@@ -55,7 +58,7 @@ const ThoughtSchema = new Schema ({
     createdAt: {
         type: Date,
         default: Date.now,
-        get: createdAtVal => moment(createdAtVal).format('MMM DD, YYYY [at] hh:mm a')
+        get: valCreate => moment(valCreate).format('MMM DD, YYYY [at] hh:mm a')
     },
 
     username: {

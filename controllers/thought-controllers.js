@@ -1,9 +1,10 @@
+//Controller functions that are exported to help with routes and manipulate data
 
 const { User, Thought } = require('../models');
 
 const thoughtController = {
 
-    getAllThought (req, res) {
+    receiveAllThought (req, res) {
 
         Thought.find({})
             .populate({
@@ -21,7 +22,7 @@ const thoughtController = {
     },
 
 
-    getThoughtById({ params}, res) {
+    receiveIdThoughts({ params}, res) {
         Thought.findOne({ _id: params.id })
             .populate({
                 path: 'reactions',

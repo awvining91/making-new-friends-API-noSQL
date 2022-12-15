@@ -1,16 +1,23 @@
-
+// Various functions that will help with the routes
 const router = require('express').Router();
 
 
 const {
 
     eraseReaction,
+
     newReaction,
+
     newThought,
+
     updateThought,
+
     newThought,
+
     retrieveIdThoughts,
+
     retrieveAllThoughts,
+
 } = require('../../controllers/thought-controller');
 
 
@@ -20,7 +27,7 @@ router
     .post(newThought);
 
 
-router  
+router   
     .route('/:id')
     .get(retrieveIdThoughts)
     .put(updateThought)
