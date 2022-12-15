@@ -1,7 +1,10 @@
+//This cool code imports the needed routes for APIs
+
 
 const router = require('express').Router();
 
 const apiRoutes  = require ('./api');
+// This adds a prefix to all the routes ^
 
 router.use('/api', apiRoutes);
 

@@ -1,3 +1,6 @@
+// This helps set us the server and sets up needed dependencies 
+
+
 const express = require('express');
 const mongoose = require('mongoose');
 
@@ -16,6 +19,10 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/making-new-frie
     useUnifiedTopology: true
 
 });
+
+// This helps with logging a query
+
+
 
 mongoose.set('debug', true);
 

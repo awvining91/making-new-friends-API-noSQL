@@ -1,4 +1,7 @@
 
+// This index file sets up various routes 
+
+
 const router = require('express').Router();
 
 const userRoutes = require('./user-routes');

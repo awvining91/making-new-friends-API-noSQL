@@ -19,4 +19,38 @@ https://github.com/awvining91/making-new-friends-API-noSQL
 
 ## References Used
 
+- Class mini-project
+
+- Class exercises
+
+- Going to Office Hours with TA and instructor
+
+- https://www.mongodb.com/nosql-explained
+
+- https://www.couchbase.com/resources/why-nosql
+
+- https://www.techtarget.com/searchdatamanagement/definition/NoSQL-Not-Only-SQL
+
+- https://www.guru99.com/nosql-tutorial.html
+
+- https://www.oracle.com/database/nosql/what-is-nosql/
+
+- Youtube.com
+
+- Stackoverflow.com
+
+- Lots of googling 
+
+- https://stackoverflow.com/questions/33050315/isnt-mongoose-contradictory-to-nosql
+
+- https://www.codementor.io/@theoutlander/introduction-to-mongoose-for-mongodb-gw9xw34el
+
+
+
+
+
+
+
+
+
 
